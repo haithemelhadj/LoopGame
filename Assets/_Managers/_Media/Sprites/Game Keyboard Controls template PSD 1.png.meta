@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: 4c1e3e6b027e30c45906809fd6fb866e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 669
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb07f62787c6fd42897e916f9b32434
+      internalID: -1312741139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 576
+        width: 78
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbc3df3b624681498ca727241ea3c94
+      internalID: -463820906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 569
+        width: 78
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee7e9ec0631cd4382e9d3306180482
+      internalID: 1848281785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 600
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6080f0a47c9619641991aeb5c99c25df
+      internalID: 1119697672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 601
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfed7fd8de2a7c14e9a0186d8bfc3b26
+      internalID: 55111452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 601
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e773706d8a2c3a64192faa7503c93512
+      internalID: 1352574731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 478
+        width: 226
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd656d9c287d5094f8c8ae1f2ee9b57d
+      internalID: 56756764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 409
+        width: 78
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2644073eba994d042810811bbae34e6a
+      internalID: 1111548088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 411
+        width: 78
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5602f4d19a90fb544abaaf9ff931b298
+      internalID: 1695861187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 372
+        width: 176
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca7c183286a2d14499ac27a9a2b986f
+      internalID: 1815143065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_10
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 413
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc4480f1a3b94044a0c1a734f708060
+      internalID: 1624442155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 412
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36702c2283de0cc4c95aecc6ebf87c4d
+      internalID: 1837349085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 340
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec2314ac449dfd40953b4c1f895193e
+      internalID: 1240311899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_13
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 337
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc83fc7606141349b00508139268867
+      internalID: -1662685068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 288
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76155ca51ce27f848811510ea20b3686
+      internalID: -929305000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 237
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635ba7fd7de17cf43a935ff3edd4afc6
+      internalID: -549334496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 224
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3953013ccb2074f969ede13c8725ca
+      internalID: -806741048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 237
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b94ac426f024d4aa6a619a0c2bdaf9
+      internalID: -678968243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_18
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 220
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60cf2814c2c3249a04909201307cd3
+      internalID: 1978895616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 220
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7030378ab85ba0f4693d62860882c99e
+      internalID: 1967619662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 220
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a2ea3730dce1a45bec4404f688a56d
+      internalID: -447200568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_21
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 220
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e63cf775e708f47a302575ef508b1e
+      internalID: -1974716961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 114
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf424c62332659147b92a406d6bccfcb
+      internalID: -272739902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_23
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 147
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cb548fb5ef619418e6c2ce0f73913d
+      internalID: 1150781116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 147
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c548da76961dc14785648e7ad54b2b8
+      internalID: 1574105439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_25
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 146
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3894c97a2628a14cbbd124ff52d2ae7
+      internalID: 1045949183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_26
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 146
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eb80ffd73936f4a945991d5eadb432
+      internalID: 959987479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5b2bb1d1cd05439c774e385e4d9ba
+      internalID: 1083711212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 50
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341b814aca596c1449380e41924fff9f
+      internalID: -419288650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 49
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149e3d760703399409fb54bf3087e508
+      internalID: 1745964406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_30
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 33
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366911ffae542134ab50d1c0a8d5b647
+      internalID: 1475038749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_31
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 33
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ed02066ec1d40418fe5dc3228de75b
+      internalID: 701295379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_32
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 33
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea733711ff491c4eae64045fddac3e4
+      internalID: -1469386918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Keyboard Controls template PSD 1_33
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 33
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3230443e053691248bb7a80f02961558
+      internalID: -1048031657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 66d4b580c6fbdae4783237d700595ed1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game Keyboard Controls template PSD 1_0: -1312741139
+      Game Keyboard Controls template PSD 1_1: -463820906
+      Game Keyboard Controls template PSD 1_10: 1624442155
+      Game Keyboard Controls template PSD 1_11: 1837349085
+      Game Keyboard Controls template PSD 1_12: 1240311899
+      Game Keyboard Controls template PSD 1_13: -1662685068
+      Game Keyboard Controls template PSD 1_14: -929305000
+      Game Keyboard Controls template PSD 1_15: -549334496
+      Game Keyboard Controls template PSD 1_16: -806741048
+      Game Keyboard Controls template PSD 1_17: -678968243
+      Game Keyboard Controls template PSD 1_18: 1978895616
+      Game Keyboard Controls template PSD 1_19: 1967619662
+      Game Keyboard Controls template PSD 1_2: 1848281785
+      Game Keyboard Controls template PSD 1_20: -447200568
+      Game Keyboard Controls template PSD 1_21: -1974716961
+      Game Keyboard Controls template PSD 1_22: -272739902
+      Game Keyboard Controls template PSD 1_23: 1150781116
+      Game Keyboard Controls template PSD 1_24: 1574105439
+      Game Keyboard Controls template PSD 1_25: 1045949183
+      Game Keyboard Controls template PSD 1_26: 959987479
+      Game Keyboard Controls template PSD 1_27: 1083711212
+      Game Keyboard Controls template PSD 1_28: -419288650
+      Game Keyboard Controls template PSD 1_29: 1745964406
+      Game Keyboard Controls template PSD 1_3: 1119697672
+      Game Keyboard Controls template PSD 1_30: 1475038749
+      Game Keyboard Controls template PSD 1_31: 701295379
+      Game Keyboard Controls template PSD 1_32: -1469386918
+      Game Keyboard Controls template PSD 1_33: -1048031657
+      Game Keyboard Controls template PSD 1_4: 55111452
+      Game Keyboard Controls template PSD 1_5: 1352574731
+      Game Keyboard Controls template PSD 1_6: 56756764
+      Game Keyboard Controls template PSD 1_7: 1111548088
+      Game Keyboard Controls template PSD 1_8: 1695861187
+      Game Keyboard Controls template PSD 1_9: 1815143065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
