@@ -71,7 +71,6 @@ public class GeneratePuzzle : MonoBehaviour
     public float scaleFactor = 0.1f;
     public bool scalePositiveWithDistance = true;
 
-    private Vector3 lineDirection;
 
     void Start()
     {
@@ -87,13 +86,16 @@ public class GeneratePuzzle : MonoBehaviour
         SpreadChildren();
     }
 
+    private Vector3 lineDirection;
+    public List<Transform> children;
     void SpreadChildren()
     {
         // Generate a random direction
         lineDirection = Random.onUnitSphere.normalized;
+        centerObject.transform.rotation = Quaternion.LookRotation(lineDirection);
 
         // Get children of center object
-        List<Transform> children = new List<Transform>();
+        children = new List<Transform>();
         foreach (Transform child in centerObject.transform)
         {
             children.Add(child);
@@ -113,7 +115,7 @@ public class GeneratePuzzle : MonoBehaviour
 
             // Calculate offset based on index relative to center
             int offsetIndex = i * Random.Range(i,10);
-            Vector3 newPosition = centerObject.transform.position + lineDirection * offsetIndex * spacing;
+            Vector3 newPosition = child.position+ lineDirection * offsetIndex * spacing;
             child.position = newPosition;
 
             // Maintain local rotation

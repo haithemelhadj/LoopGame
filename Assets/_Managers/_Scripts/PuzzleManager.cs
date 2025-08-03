@@ -8,12 +8,13 @@ public class PuzzleManager : MonoBehaviour
 
     private void Start()
     {
+        gamePaused = false;
+        PauseGame();
         // Set the skybox material
         if (skyboxes.Length > 0)
         {
             RenderSettings.skybox = skyboxes[Random.Range(0, skyboxes.Length)];
         }
-        PauseGame();
 
 
 
@@ -25,6 +26,7 @@ public class PuzzleManager : MonoBehaviour
             PauseGame();
         }
     }
+
     #region PauseGame
 
     public GameObject nextSceneUi;
@@ -32,8 +34,9 @@ public class PuzzleManager : MonoBehaviour
     public GameObject gameUi;
     public void PauseGame()
     {
-        if (gamePaused)
+        if (!gamePaused)
         {
+            gamePaused = true;
             Time.timeScale = 0f; // Pause the game
             //unlock cursor and show it
             Cursor.lockState = CursorLockMode.None;
@@ -41,6 +44,7 @@ public class PuzzleManager : MonoBehaviour
         }
         else
         {
+            gamePaused = false;
             Time.timeScale = 1f; // Pause the game
             //lock cursor and hide it
             Cursor.lockState = CursorLockMode.Locked;
@@ -54,6 +58,14 @@ public class PuzzleManager : MonoBehaviour
 
     #endregion
 
+    #region
+    public void MainMenu()
+    {
+        // Load the main menu scene (assuming it's the first scene in the build settings)
+        SceneManager.LoadScene(0);
+    }
+    #endregion
+
     #region scene management
     // next scene in build settings
     public void LoadNextScene()
@@ -61,7 +73,8 @@ public class PuzzleManager : MonoBehaviour
         // Get the current scene index
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         // Load the next scene in the build settings
-        if (currentSceneIndex < SceneManager.sceneCount)
+        Debug.Log("SC: "+SceneManager.sceneCount);
+        if (currentSceneIndex < SceneManager.sceneCountInBuildSettings-1)
             SceneManager.LoadScene(currentSceneIndex + 1);
         else
             SceneManager.LoadScene(0);

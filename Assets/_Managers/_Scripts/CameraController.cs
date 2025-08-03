@@ -20,6 +20,8 @@ public class CameraController : MonoBehaviour
     public bool invertZ = false;
     public int invertZint = 1;
 
+    public CorrectPosition correctPositionScript; // Reference to the CorrectPosition script to check if the player is in the correct position
+
     Vector3 initT;
     Quaternion initR;
 
@@ -54,7 +56,8 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        CameraControl();
+        if(!correctPositionScript.isCorrectPosition)
+            CameraControl();
         if (Input.GetKeyDown(ResetCameraButton))
         {
             ResetCamera();
@@ -85,7 +88,7 @@ public class CameraController : MonoBehaviour
         if (scroll != 0f)
         {
             distance -= scroll * scrollSpeed;
-            distance = Mathf.Clamp(distance, 5f, 50f); // Limit zoom range
+            distance = Mathf.Clamp(distance, 5f, 80f); // Limit zoom range
             cameraT.position = targetT.position - cameraT.forward * distance;
         }
 

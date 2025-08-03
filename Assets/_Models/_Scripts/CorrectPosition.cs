@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CorrectPosition : MonoBehaviour
 {
+
     public bool isCorrectPosition = false;
     GameObject player;
     public float speed = 0.1f; // Speed at which the player moves to the correct position
