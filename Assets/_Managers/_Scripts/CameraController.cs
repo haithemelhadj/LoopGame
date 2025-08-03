@@ -64,6 +64,24 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    public void InvertXAxis()
+    {
+        invertX = !invertX;
+        invertXint = invertX ? -1 : 1;
+    }
+
+    public void InvertYAxis()
+    {
+        invertY = !invertY;
+        invertYint = invertY ? -1 : 1;
+    }
+
+    public void InvertZAxis()
+    {
+        invertZ = !invertZ;
+        invertZint = invertZ ? -1 : 1;
+    }
+
     public void CameraControl()
     {
         if(Input.GetKey(ControlCameraButton)) // Left mouse button

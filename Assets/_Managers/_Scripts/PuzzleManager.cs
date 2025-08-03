@@ -4,11 +4,11 @@ public class PuzzleManager : MonoBehaviour
 {
 
     public Material[] skyboxes;
-    public bool gamePaused = false;
+    public bool gamePaused = true;
 
     private void Start()
     {
-        gamePaused = false;
+        gamePaused = true;
         PauseGame();
         // Set the skybox material
         if (skyboxes.Length > 0)
